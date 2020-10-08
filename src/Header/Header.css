@@ -1,0 +1,48 @@
+.header
+{
+    display: flex;
+    align-items: center;                             /* Keep item on same line mean start from y point at middle */
+    justify-content: space-between;                  /* Give space between items  */
+    width: 100%;
+    position: sticky;                                /* Following properties are to keep our Header stick to top always */
+    top:0;
+    background: white;
+}
+
+.header > div{
+    display: flex;                                  /* For each item display is flex  and align them on same distance from top on center*/
+    align-items: center;
+}
+
+.header__left__icon
+{
+    object-fit: contain;                             /* So the image can maintain aspect ratio    */
+    height: 100px;
+    margin-left: 20px;
+}
+
+.header__center
+{
+   flex: 1;                                         /* So center item can occupy all left  space  */
+   justify-content: center;                        /* So thing can come at center horizontally     */
+   max-width: fit-content;                         /* To make search bar responsive              */
+   height: 30px;                
+   border:1px solid lightgray;                  /* So button and search can be covered by a out border   */
+   border-radius:999px;
+   padding:10px;
+}
+
+.header__center >input
+{
+    border: none;                                /*   Removing default border of input    */
+    padding: 10px;                               /*   So on clicking border does not become visible again   */
+    outline-width: 0;
+}
+
+.header__right
+{
+    justify-content: space-between;            /*    So logo can be separated    */
+    width: 15vw;                               /*   15 percent width of view  port     */
+    margin-right: 80px;
+}
+
