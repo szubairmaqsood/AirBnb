@@ -1,11 +1,13 @@
 import React from 'react';
 import './Home.css';
+import Banner from '../Banner/Banner'
 
 export default function Home() {
     return (
         //BEM Naming Convention for class Name
-        <div class="home">
-            <h1>This is home component</h1>
+        <div className="home">
+            
+            <Banner></Banner>
         </div>
     )
 }

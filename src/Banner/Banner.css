@@ -1,0 +1,53 @@
+.banner
+{
+    background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg")center center;
+    height: 50vh;
+    position: relative;                           /*So we can position things inside of it  */
+}
+
+.banner__search
+{
+    display:flex ;
+    flex-direction: column;
+}
+
+.banner__searchButton                            /*  Wheneer you give a class to a matieral UI BUTTON AND USER IT USER IMPORTANR   */
+{
+    background-color:white !important;
+    color: #ff7779 !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+}
+
+.banner__info
+{
+    background: black;
+    color:white;                             /* So the text is visible  */
+    width:20%;
+    padding-left: 30px;                        /*  So the content can be center from all side  */
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.banner__info >Button                         /*it was button of metial UI   */
+{
+    background-color: #ff7779;
+    color:white;
+    text-transform: uppercase;
+    margin:20px;                             /*  So the space can be achieved between content  */
+    font-weight: 600;                        /*   Making text grow bigger                     */
+    border:1px solid blue;
+}
+
+.banner__info >Button :hover                        /*Hover effect for Buttton   */
+{
+    background-color: white !important;
+    color:#ff7779 !important;
+}
+
+.banner__info >h5
+{
+    margin-top: 10px;                         /*  So the space can be achieved between content  */
+}

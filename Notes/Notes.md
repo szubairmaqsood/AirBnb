@@ -43,10 +43,21 @@ npm install @material-ui/icons
 Make your header with display flex so section can come in horizontal line and align items center so that vertical the section can align
 and justify content space between for parent so header section are a good distance
 Set position sticky top 0 and background for header parent so header remain stick to top enen on scrll
-For each Individual section also use display flex and align item center
-The division you want to give maximum space give it flex 1
+For each Individual section also use "display flex and align item center"
+The division you want to give maximum space give it "flex 1"
 For div that cotain search bar esessary define width fit content and height:30px
-For left and right division give them margin from their respective side
+For "left and right division" give them "margin" from their respective side
+
+
+----------Step 7 Mateiral UI Class Name---------------
+When even you work with Class Name of Meterial Ui you need to use "!important" with it.
+I made banner
+
+
+--Step 8 Make date picker
+use this module first
+npm i date-fns
+ npm i react-date-range
 
 
 

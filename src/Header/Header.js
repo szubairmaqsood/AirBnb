@@ -7,18 +7,18 @@ import { Avatar } from '@material-ui/core';
 
 function Header() {
     return (
-        <div class="header">
+        <div className="header">
 
-            <div class="header__left">
-            <img class="header__left__icon"  src="https://i.pinimg.com/originals/3e/bc/89/3ebc89385f468948b821a4dd3436a2e1.png" alt="AirBnbLogo"></img>
+            <div className="header__left">
+            <img className="header__left__icon"  src="https://i.pinimg.com/originals/3e/bc/89/3ebc89385f468948b821a4dd3436a2e1.png" alt="AirBnbLogo"></img>
             </div>
 
-            <div class="header__center">
+            <div className="header__center">
                 <input type="text"/>
                 < SearchIcon></SearchIcon>
             </div>
 
-            <div class="header__right">
+            <div className="header__right">
                 <p>Become a Host</p>
                 <LanguageIcon></LanguageIcon>
                 <ExpandMoreIcon></ExpandMoreIcon>
