@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Home from './Home/Home';
 import Header from './Header/Header';
+import Footer from './Footer/Footer'
 
 function App() {
   return (
@@ -9,17 +10,17 @@ function App() {
       <Header></Header>
       
       {/* Home   */}
-        <Home></Home>
-        {/* Header */}
-        
+      <Home></Home>
         {/* Banner */}
-        
         {/* Cards */}
-        
         {/* Footer */}
       
       {/* Search Page */}
-        {/* Header   */}
+
+
+      {/* Footer    */}
+        <Footer></Footer>
+        
 
 
     </div>
